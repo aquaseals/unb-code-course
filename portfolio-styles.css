@@ -1,0 +1,152 @@
+body {
+    background-color: #6a2b77;
+}
+
+#title {
+    display: flex;
+}
+
+a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#aboutme {
+    background-color: #622a6d;
+    padding-left: 64%;
+}
+
+#contact {
+    background-color: #622a6d;
+    padding-left: 15px;
+}
+
+#portfolio {
+    background-color: #622a6d;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+p {
+    font-style: italic;
+    color: white;
+}
+
+.namecon {
+    display: inline-block;
+    background-color: #592164;
+}
+
+.name {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+}
+
+/* Main Content*/
+
+.categories {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.subject {
+    font-size: 70px;
+    padding-right: 40px
+}
+
+.text {
+    background-color: #713d7c;
+    font-size: 40px;
+    border-left: 5px solid white;
+    padding-left: 20px;
+}
+
+.img {
+    color: white;
+    border: 5px solid white;
+    width: 30%;
+    height: 60%;
+    opacity: 0.4;
+}
+
+#mywork {
+    padding-right: 20px;
+}
+
+#job2 {
+    border-left: 5px solid white;
+    padding-left: 30px;
+}
+
+#job3 {
+    border-left: 5px solid white;
+    padding-left: 30px;
+}
+
+#job4 {
+    border-left: 5px solid white;
+    padding-left: 30px;
+}
+
+#job1 {
+    border-left: 5px solid white;
+    padding-left: 30px;
+}
+
+.project {
+    display: inline-block;
+    color: white;
+    background-color: #53245c;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+/*contact me*/
+
+#ccontact {
+    background-color: #9761a1;
+    padding: 60px;
+}
+
+#info {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+label {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+#btn {
+    text-align: center;
+
+    width: 60px;
+    height: 40px;
+
+}
+
