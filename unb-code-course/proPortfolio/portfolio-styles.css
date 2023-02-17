@@ -62,8 +62,6 @@ img {
 /* Main Content*/
 
 .categories {
-    display: flex;
-    text-align: left;
     align-items: center;
     padding-bottom: 100px;
 }
