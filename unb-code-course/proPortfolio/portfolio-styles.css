@@ -37,7 +37,6 @@ a:hover {
 }
 
 p {
-    font-style: italic;
     color: white;
 }
 
@@ -68,7 +67,7 @@ img {
 
 .subject {
     font-size: 70px;
-    padding-right: 40px
+    padding-right: 30px;
 }
 
 .text {
@@ -79,35 +78,44 @@ img {
 }
 
 .img {
+    text-align: center;
     color: white;
     border: 5px solid white;
-    width: 30%;
-    height: 60%;
     opacity: 0.4;
 }
 
 #mywork {
-    padding-right: 20px;
+    border-right: 5px solid white;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 #job2 {
-    border-left: 5px solid white;
-    padding-left: 30px;
+    width: 70%;
+    height: 40%;
 }
 
 #job3 {
+    width: 60%;
+    height: 80%;
     border-left: 5px solid white;
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-top: 50px;
 }
 
 #job4 {
-    border-left: 5px solid white;
-    padding-left: 30px;
+    width: 60%;
+    height: 50%;
+    padding-top: 50px;
 }
 
 #job1 {
+    width: 50%;
+    height: 60%;
     border-left: 5px solid white;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .project {
@@ -117,7 +125,6 @@ img {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
-
 }
 
 /*contact me*/
